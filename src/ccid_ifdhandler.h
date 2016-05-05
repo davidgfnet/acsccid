@@ -84,5 +84,17 @@ extern int DriverOptions;
  */
 CcidDesc *get_ccid_slot(unsigned int reader_index);
 
+#ifndef PCSCv2_PART10_PROPERTY_dwMaxAPDUDataSize
+#define PCSCv2_PART10_PROPERTY_dwMaxAPDUDataSize 10
+#endif
+
+#ifndef PCSCv2_PART10_PROPERTY_wIdVendor
+#define PCSCv2_PART10_PROPERTY_wIdVendor 11
+#endif
+
+#ifndef PCSCv2_PART10_PROPERTY_wIdProduct
+#define PCSCv2_PART10_PROPERTY_wIdProduct 12
+#endif
+
 #endif
 
