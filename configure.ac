@@ -2,7 +2,7 @@
 # You may need to use autoconf 2.56 or newer
 
 # Require autoconf 2.61
-AC_PREREQ([2.69])
+AC_PREREQ([2.68])
 
 AC_INIT([acsccid], [1.1.3])
 AC_CONFIG_SRCDIR(src/ifdhandler.c)
